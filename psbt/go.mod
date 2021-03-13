@@ -1,4 +1,4 @@
-module github.com/btcsuite/btcutil/psbt
+module github.com/nyodeco/pinutil/psbt
 
 go 1.13
 

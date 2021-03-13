@@ -1,4 +1,4 @@
-module github.com/btcsuite/btcutil
+module github.com/nyodeco/pinutil
 
 go 1.14
 
