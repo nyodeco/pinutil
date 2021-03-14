@@ -3,13 +3,13 @@
 // license that can be found in the LICENSE file.
 
 /*
-This test file is part of the btcutil package rather than than the
-btcutil_test package so it can bridge access to the internals to properly test
+This test file is part of the pinutil package rather than than the
+pinutil_test package so it can bridge access to the internals to properly test
 cases which are either not possible or can't reliably be tested via the public
 interface. The functions are only exported while the tests are being run.
 */
 
-package btcutil
+package pinutil
 
 import (
 	"github.com/nyodeco/pind/btcec"

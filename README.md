@@ -1,11 +1,11 @@
-btcutil
+pinutil
 =======
 
 [![Build Status](https://github.com/nyodeco/pinutil/workflows/Build%20and%20Test/badge.svg)](https://github.com/nyodeco/pinutil/actions)
 [![ISC License](https://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/nyodeco/pinutil)
 
-Package btcutil provides bitcoin-specific convenience functions and types.
+Package pinutil provides bitcoin-specific convenience functions and types.
 A comprehensive suite of tests is provided to ensure proper functionality.  See
 `test_coverage.txt` for the gocov coverage report.  Alternatively, if you are
 running a POSIX OS, you can run the `cov_report.sh` script for a real-time
@@ -45,5 +45,5 @@ verify the signature perform the following:
 
 ## License
 
-Package btcutil is licensed under the [copyfree](http://copyfree.org) ISC
+Package pinutil is licensed under the [copyfree](http://copyfree.org) ISC
 License.
