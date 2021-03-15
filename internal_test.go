@@ -12,7 +12,7 @@ interface. The functions are only exported while the tests are being run.
 package pinutil
 
 import (
-	"github.com/nyodeco/pind/btcec"
+	"github.com/nyodeco/pind/pinec"
 	"github.com/nyodeco/pinutil/base58"
 	"github.com/nyodeco/pinutil/bech32"
 	"golang.org/x/crypto/ripemd160"
@@ -82,7 +82,7 @@ func TstAddressWitnessScriptHash(version byte, program [32]byte,
 func TstAddressPubKey(serializedPubKey []byte, pubKeyFormat PubKeyFormat,
 	netID byte) *AddressPubKey {
 
-	pubKey, _ := btcec.ParsePubKey(serializedPubKey, btcec.S256())
+	pubKey, _ := pinec.ParsePubKey(serializedPubKey, pinec.S256())
 	return &AddressPubKey{
 		pubKeyFormat: pubKeyFormat,
 		pubKey:       pubKey,
