@@ -6,6 +6,6 @@ require (
 	github.com/aead/siphash v1.0.1
 	github.com/davecgh/go-spew v1.1.1
 	github.com/kkdai/bstream v1.0.0
-	github.com/nyodeco/pind v0.0.0-20210315125104-215dfc6d510c
-	golang.org/x/crypto v0.0.0-20210220033148-5ea612d1eb83
+	github.com/nyodeco/pind v0.0.0-20210317093310-84bebbb8bb42
+	golang.org/x/crypto v0.0.0-20210314154223-e6e6c4f2bb5b
 )
